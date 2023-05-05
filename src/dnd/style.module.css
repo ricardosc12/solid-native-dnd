@@ -1,0 +1,8 @@
+.drag {
+    display: block;
+    width: 100px;
+    height: 70px;
+    min-width: 100px;
+    min-height: 70px;
+    background-color: red;
+}

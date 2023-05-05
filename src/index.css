@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.shadow {
+    box-shadow: inset 0px 0px 5px 5px green;
+}
+
+.main {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.dragger {
+    cursor:  pointer !important;
+}
+
+.drop-zone {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    min-height: 200px;
+    height: auto;
+}
+
+.shadow {
+    box-shadow: 0px 0px 10px red;
+}
